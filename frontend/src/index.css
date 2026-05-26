@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@theme {
+  --color-vibePink: #FDF2F8;
+  --color-vibeOrange: #FFF7ED;
+  --color-vibeWhite: #FFFFFF;
+  --color-textDark: #1F2937;
+  --color-textMuted: #6B7280;
+  --color-accentPink: #F472B6;
+  --color-accentOrange: #FB923C;
+}
+
+@layer base {
+  body {
+    @apply bg-vibeOrange text-textDark font-sans antialiased;
+  }
+}
